@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FINAL MANO.srcs/sources_1/new/256_RAM.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/AC_CONTROL.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/AC_REG.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/AC_adderNlogic.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/AR _Control.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/BUS_Control.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/Control_Unit.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/DR_Control.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/Decoder3x8.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/Encoder8x3.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/IR_Control.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/MUX8_x3.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/Memory_control.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/PC_REG.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/PC_control.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/Sequence_counter.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/main.v" \
+"../../../../FINAL MANO.srcs/sources_1/new/seq_counter.v" \
+"../../../../FINAL MANO.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

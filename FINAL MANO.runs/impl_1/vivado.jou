@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr 27 20:35:23 2024
+# Process ID: 13432
+# Current directory: C:/term 2/micro/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log Mainn.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Mainn.tcl -notrace
+# Log file: C:/term 2/micro/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/project_1/project_1.runs/impl_1/Mainn.vdi
+# Journal file: C:/term 2/micro/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Mainn.tcl -notrace

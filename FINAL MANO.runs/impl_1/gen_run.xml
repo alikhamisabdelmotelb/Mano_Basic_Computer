@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1714239316">
+  <File Type="BITSTR-BMM" Name="Mainn_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="Mainn_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Mainn.tcl"/>
+  <File Type="OPT-DCP" Name="Mainn_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Mainn_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Mainn_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Mainn_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Mainn.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Mainn_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Mainn_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Mainn_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Mainn_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Mainn_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Mainn_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Mainn_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Mainn.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Mainn_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Mainn.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Mainn_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Mainn.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Mainn_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Mainn_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Mainn_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Mainn_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Mainn_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="Mainn.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Mainn_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Mainn.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Mainn_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Mainn_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Mainn.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Mainn_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Mainn_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Mainn_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Mainn_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Mainn_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Mainn_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Mainn_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="Mainn.vdi"/>
+  <File Type="ROUTE-CLK" Name="Mainn_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Mainn_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Mainn_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Mainn_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Mainn_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Mainn_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Mainn.bit"/>
+  <File Type="BITSTR-RBT" Name="Mainn.rbt"/>
+  <File Type="BITSTR-NKY" Name="Mainn.nky"/>
+  <File Type="BG-DRC" Name="Mainn.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/256_RAM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/256_RAM.v"/>
+        <Attr Name="ImportTime" Val="1681664347"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AC_CONTROL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/AC_CONTROL.v"/>
+        <Attr Name="ImportTime" Val="1681667210"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AC_REG.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/AC_REG.v"/>
+        <Attr Name="ImportTime" Val="1681665572"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AC_adderNlogic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/AC_adderNlogic.v"/>
+        <Attr Name="ImportTime" Val="1681787070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AR _Control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/AR _Control.v"/>
+        <Attr Name="ImportTime" Val="1681667376"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BUS_Control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/BUS_Control.v"/>
+        <Attr Name="ImportTime" Val="1681784379"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Control_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/Control_Unit.v"/>
+        <Attr Name="ImportTime" Val="1681870847"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DR_Control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/DR_Control.v"/>
+        <Attr Name="ImportTime" Val="1681784523"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder3x8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/Decoder3x8.v"/>
+        <Attr Name="ImportTime" Val="1681872005"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Encoder8x3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/Encoder8x3.v"/>
+        <Attr Name="ImportTime" Val="1681785819"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IR_Control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/mano_basic_comp3.srcs/sources_1/new/IR_Control.v"/>
+        <Attr Name="ImportTime" Val="1706422192"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX8_x3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/MUX8_x3.v"/>
+        <Attr Name="ImportTime" Val="1681786526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Memory_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/Memory_control.v"/>
+        <Attr Name="ImportTime" Val="1681661116"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC_REG.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/PC_REG.v"/>
+        <Attr Name="ImportTime" Val="1681678754"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/PC_control.v"/>
+        <Attr Name="ImportTime" Val="1681786297"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Sequence_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/mano_basic_comp3.srcs/sources_1/new/Sequence_counter.v"/>
+        <Attr Name="ImportTime" Val="1706422192"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seq_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/seq_counter.v"/>
+        <Attr Name="ImportTime" Val="1681664852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/main.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/mano_basic_comp3.srcs/sources_1/new/main.v"/>
+        <Attr Name="ImportTime" Val="1706422192"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DR_REG.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano-Basic-Computer-Using-Verilog-main/mano_basic_comp3.srcs/sources_1/new/DR_REG.v"/>
+        <Attr Name="ImportTime" Val="1706422192"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_ff_reset.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/D_ff_reset.v"/>
+        <Attr Name="ImportTime" Val="1681870712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_flipflop.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../term 2/micro/مشروع/Mano-Basic-Computer-Using-Verilog-main/Mano_Basic_Computer/Mano_Basic_Computer.srcs/sources_1/new/D_flipflop.v"/>
+        <Attr Name="ImportTime" Val="1681870586"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Mainn"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

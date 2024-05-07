@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May  7 03:34:03 2024
+# Process ID: 50528
+# Current directory: C:/Users/alikh/OneDrive/Desktop/FINAL MANO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent52680 C:\Users\alikh\OneDrive\Desktop\FINAL MANO\FINAL_MANO.xpr
+# Log file: C:/Users/alikh/OneDrive/Desktop/FINAL MANO/vivado.log
+# Journal file: C:/Users/alikh/OneDrive/Desktop/FINAL MANO\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/256_RAM.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/AC_CONTROL.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/AC_REG.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/AC_adderNlogic.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/AR _Control.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/BUS_Control.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/Control_Unit.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/DR_Control.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/Decoder3x8.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/Encoder8x3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/IR_Control.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/MUX8_x3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/Memory_control.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/PC_REG.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/PC_control.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/Sequence_counter.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/seq_counter.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/main.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/DR_REG.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/D_ff_reset.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sources_1/new/D_flipflop.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sim_1/new/test.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sim_1/new/RAM_256TB.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.srcs/sim_1/new/TEST1.v'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/alikh/OneDrive/Desktop/FINAL MANO/FINAL_MANO.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/alikh/OneDrive/Desktop/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 863.125 ; gain = 120.203
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  7 03:35:08 2024...
