@@ -5,7 +5,7 @@ module RAM (CLK,read,AR,write,INDATA,OUTDATA );
     input [11:0] AR;
     output reg [15:0] OUTDATA;
     
-    reg [15:0] RAM_4K [4096:0];
+    reg [15:0] RAM_4K [4095:0];
         
     initial 
     begin
