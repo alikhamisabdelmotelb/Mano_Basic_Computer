@@ -1,6 +1,4 @@
 
-`define	BLE	16'b0
-
  module Mainn(input CLK,
      /*
      , output E,
