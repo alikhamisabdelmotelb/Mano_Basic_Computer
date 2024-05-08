@@ -13,7 +13,7 @@ module RAM (CLK,read,AR,write,INDATA,OUTDATA );
     RAM[1] = 16'h7800;       //clear AC
     RAM[2] = 16'h7200;       //CMA
     RAM[3] = 16'h2004;       //LDA      
-    RAM[4] = 16'h2002;       //ADD
+    RAM[4] = 16'h1002;    //ADD
     RAM[5] = 16'h7001;       //HLT
     end
     
